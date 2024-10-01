@@ -1,0 +1,54 @@
+.Process{
+  header{
+    .texts{
+      text-align: left;
+      margin-left: 10px;
+      hr{}
+      h2{}
+      p{}
+    }
+  }
+  section{
+    display: flex;
+    justify-content: space-around;
+    article{
+      width: calc(33.33% - 20px);
+      height: 630px;
+      .image{
+        height: 440px;
+        background-color: rgba(0,0,0,0.1);
+        &.i1{
+          background-image: url(../../assets/images/index/pic05.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+        &.i2{
+          background-image: url(../../assets/images/index/pic06.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+        &.i3{
+          background-image: url(../../assets/images/index/pic07.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+      }
+      .texts{
+        text-align: center;
+        h3{
+          margin-top: 20px;;
+        }
+        h4{
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 40px;
+        }
+        ul{
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}

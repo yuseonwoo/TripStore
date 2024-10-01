@@ -1,0 +1,45 @@
+.mnWrap{
+  background-image: url('../../assets/images/index/header01.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+    main{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      flex-direction: column;
+    .texts{
+      display: flex;
+      flex-direction: column;
+      margin-right: 1000px;
+      h2{
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 80px;
+      }
+      p{
+        margin-top: 40px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+      }
+    }
+    .btn{
+      display: flex;
+      position: absolute;
+      bottom: -250px;
+      left: 50%;
+      justify-content: center;
+      button{
+        font-size: 40px;
+        border: none;
+        background: none;
+        color: #fff;
+      }
+    }  
+  }
+}
