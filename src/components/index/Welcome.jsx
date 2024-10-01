@@ -9,8 +9,8 @@ class Welcome extends Component{
     return (
       <div className="content Welcome">
         <header>
-          <div className="texts">
-            <hr />
+          <div className="textbox">
+            {/* <hr /> */}
             <h2>Welcome to our world !</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             <p>

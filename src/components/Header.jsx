@@ -1,14 +1,13 @@
 import React from "react";
 
-const Header= ({h2,h3,h4,h6,p})=>{
+const Header= ({h2,h6,p})=>{
   return (
     <header>
       {/* 변수 값 적용은 {}에서 한다. 
           선언되지 않은 변수는 사용할 수 없다.
           문자열일 경우 반드시 "" 또는 '' 를 사용해야한다 
       */}
-      <h4>{h4}</h4>
-      <h2>{h3}</h2>
+      <h2>{h2}</h2>
       {/* 
         삼항연산자
         조건식 ? 참일때 실행 : 거짓일때 실행

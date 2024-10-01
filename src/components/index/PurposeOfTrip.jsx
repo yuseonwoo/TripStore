@@ -17,7 +17,7 @@ class PurposeOfTrip extends Component{
     return(
       <div className={"content PurposeOfTrip"}>
         <Header h4 ="What travel do you want?"
-                h3 ="Purpose Of Trip" 
+                h2 ="Purpose Of Trip" 
                 p={
                   <>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.

@@ -45,28 +45,33 @@
 }
 
 .content{
-  padding-top: 120px;
-  padding-bottom: 120px;
-  Header{
+  padding: 120px 0;
+  header{
     width: 90%;
     max-width: 1440px;
-    margin: 0 auto;
-    text-align: center;
-    hr{
+    margin:  0 auto;
+    text-align: left;
+    // 가상 선택자
+    // 첫번째 가상 요소
+    &::before{
       display: inline-block;
-      width: 80px;
-      height: 6px;
-      border: 0;
-      background-color: #ccc;
-      margin: 0;
+      content:"";
+      width: 200px;
+      height: 10px;
+      background-color: red;
+      margin: 0 auto;
     }
     h2{
       font-size: 36px;
       font-weight: 700;
       line-height: 80px;
-      
     }
     p{}
+    // 마지막 자식의 가상요소
+    ::after{
+      display: block;
+      content: "";
+    }
   }
   section{
     width: 90%;
@@ -168,3 +173,6 @@
     }
   }
 }
+
+
+
