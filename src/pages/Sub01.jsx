@@ -1,12 +1,20 @@
 import React from "react";
-import SiteBanner from "../components/SiteBanner";
-import Main from "../components/sub1/Main";
+import Sub1Main from "../components/sub1/Sub1Main";
+import TriptoUser from "../components/sub1/TriptoUser";
+import HowAbout from "../components/sub1/HowAbout";
+import Recommend from "../components/sub1/Recommend";
+import Sub1Banner from "../components/sub1/Sub1Banner"
+
+
 const Sub01 = ()=>{
   return (
     <>
-      <Main/>
-      <h1>sub1 페이지 입니다.</h1>
-      <SiteBanner/>
+      <Sub1Main/>
+      <TriptoUser/>
+      <HowAbout/>
+      <Recommend/>
+      <Sub1Banner/>
+
     </>
   )
 }

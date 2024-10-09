@@ -1,4 +1,5 @@
 .Welcome{
+  padding: 0;
   header{
     display: flex;
     height: 830px;
@@ -8,7 +9,14 @@
       text-align: left;
       width: calc(50% - 20px);
       margin-top: 120px;
-      hr{}
+      hr{
+        display: inline-block;
+        width: 80px;
+        height: 6px;
+        border: 0;
+        background-color: #ccc;
+        margin: 0;
+      }
       h2{}
       p{
         &:nth-of-type(2){
@@ -17,17 +25,6 @@
         &:nth-of-type(3){
           margin-top: 35px;
         }
-      }
-      button{
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 40px;
-        margin-top: 240px;
-        width: 200px;
-        height: 40px;
-        color: #fff;
-        background-color: #000;
-        border-radius: 30px;
       }
     }
     .image{

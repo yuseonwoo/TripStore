@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import '../../styles/index/ct2.scss'
+import '../../styles/index/welcome.scss'
 
 class Welcome extends Component{
   componentDidMount(){
@@ -10,7 +10,7 @@ class Welcome extends Component{
       <div className="content Welcome">
         <header>
           <div className="textbox">
-            {/* <hr /> */}
+            <hr />
             <h2>Welcome to our world !</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             <p>
@@ -25,9 +25,6 @@ class Welcome extends Component{
               <br/>blandit. Nulla ut tristique purus. In scelerisque feugiat est ac auctor. Duis sed nulla sapien.
               <br/>Vestibulum in ipsum eu arcu efficitur pretium. 
             </p>
-            <button>
-              Start
-            </button>
           </div>
           <div className="image">
           </div>

@@ -1,0 +1,40 @@
+.carousel{
+  section{
+    outline: 1px solid red;
+    position: relative;
+    .imageWrap{
+      overflow: hidden;
+      .imageBox{
+        width: calc(100% * 6);
+        display: flex;
+        position: relative;
+        .image{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 48px;
+          background-color: #ccc;
+          width: calc(100% / 6);
+          line-height: 480px;
+          
+        }
+      }
+    }
+    .buttonBox{
+      display: flex;
+      justify-content: space-between;
+      width: calc(100% + 120px);
+      position: absolute;
+      left: -60px;
+      top: 0;
+      height: 100%;
+      button{
+        width: 40px;
+        height: 100%;
+        background-color: #999;
+        
+        
+      }
+    }
+  }
+}

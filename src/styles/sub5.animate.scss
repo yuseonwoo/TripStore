@@ -1,0 +1,32 @@
+.animate{
+  section{
+    outline: 1px solid red;
+    .imageBox{
+      //width: calc(100% * 4);
+      display: flex;
+      //margin-left: calc(-100% * 3);
+      position: relative;
+
+      .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 48px;
+        //width: calc(100% / 4);
+        background-color: #ccc;
+        height: 480px;
+      }
+    }
+    .buttonBox{
+      display: flex;
+      justify-content: center;
+      
+      button{
+        width: 40px; height: 40px;
+        margin: 0 5px;
+        background-color: #999;
+        border-radius: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.recommend{
+  header{
+    .texts{
+      hr{
+        display: inline-block;
+        width: 80px;
+        height: 6px;
+        border: 0;
+        background-color: #ccc;
+        margin: 0;
+      }
+      h2{}
+      p{}
+
+    }
+  }
+  section{
+    display: flex;
+    justify-content: space-around;
+    article{
+      width: 460px;
+      height: 560px;
+      background-color: #ccc;
+      .image{
+        &.i1{
+          height: 100%;
+          width: 100%;
+          background-image: url(../../assets/images/sub1/pic10.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+        &.i2{
+          height: 100%;
+          width: 100%;
+          background-image: url(../../assets/images/sub1/pic11.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+        &.i3{
+          height: 100%;
+          width: 100%;
+          background-image: url(../../assets/images/sub1/pic12.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+        .texts{
+          position: relative;
+          .textBoxWrapper{
+            position: absolute;
+            bottom: -560px;
+            .textBox{
+              width: 420px;
+              height: 270px;
+              background-color: rgba(0,0,0,0.2);
+              padding: 30px;
+              .colorBox{
+                width: 20px;
+                height: 20px;
+                &.c1{
+                  background-color: #ff8a8a;
+                }
+                &.c2{
+                  background-color: #9747ff;
+                }
+                &.c3{
+                  background-color: #788bed;
+                }
+              }
+              h2{
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 40px;
+                color: #fff;
+              }
+              h4{
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 40px;
+                color: #fff;
+              }
+              ul{
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 20px;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

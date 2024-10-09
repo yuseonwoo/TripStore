@@ -1,0 +1,69 @@
+.PurposeOfTrip{
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    h4{
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+    h2{}
+    p{
+      font-size: 14px;
+      font-weight: 100;
+      line-height: 20px;
+    }
+  }
+  section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+    align-items: center;
+      article{
+        width: calc(33.33% - 20px);
+        height: 630px;
+        .image{
+          height: 440px;
+          background-color: rgba(0,0,0,0.1);
+          &.i1{
+            background-image: url(../../assets/images/index/pic01.jpg);
+            background-size: cover;
+            background-position: center;
+          }
+          &.i2{
+            background-image: url(../../assets/images/index/pic02.jpg);
+            background-size: cover;
+            background-position: center;
+          }
+          &.i3{
+            background-image: url(../../assets/images/index/pic03.jpg);
+            background-size: cover;
+            background-position: center;
+          }
+        }
+        .texts{
+          text-align: center;
+          h2{
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 40px;
+          }
+          h4{
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 40px;
+          }
+          ul{
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 20px;
+          }
+        }
+    }
+  }
+}

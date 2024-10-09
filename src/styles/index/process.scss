@@ -3,7 +3,14 @@
     .texts{
       text-align: left;
       margin-left: 10px;
-      hr{}
+      hr{
+        display: inline-block;
+        width: 80px;
+        height: 6px;
+        border: 0;
+        background-color: #ccc;
+        margin: 0;
+      }
       h2{}
       p{}
     }
@@ -35,8 +42,11 @@
       }
       .texts{
         text-align: center;
-        h3{
-          margin-top: 20px;;
+        h2{
+          margin-top: 20px;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 40px;
         }
         h4{
           font-size: 16px;

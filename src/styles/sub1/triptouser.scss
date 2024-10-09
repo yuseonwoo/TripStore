@@ -1,0 +1,37 @@
+.TriptoUser{
+  width: 90%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  header{
+    width: calc(50% - 20px);
+    .texts{
+      width: 100%;
+      text-align: left;
+      margin-top: 40px;
+      hr{
+        display: inline-block;
+        width: 80px;
+        height: 6px;
+        border: 0;
+        background-color: #ccc;
+        margin: 0;
+      }
+      h2{}
+      p{
+        margin-top: 40px;
+      }
+    }
+  }
+  section{
+    width: calc(50% - 20px);
+    margin: 0;
+    .image{
+      height: 840px;
+      background-image: url(../../assets/images/sub1/pic08.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}

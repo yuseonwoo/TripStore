@@ -1,7 +1,6 @@
 import React, {Component} from "react";
-import Header from "../Header";
-import '../../styles/common.scss'
-import '../../styles/index/ct1.scss'
+import '../../styles/index/purposeoftrip.scss'
+import purpose from'../../datas/index/purpose.json'
 // 클래스형 컴포넌트 (제이쿼리를 사용하기 위해서 한것)
 // 함수형 컴포넌트와 클래스형 컴포넌트의 차이
 // 클래스형 컴포넌트는 컴포넌트의 생명주기를 제어할 수 있다.
@@ -16,24 +15,32 @@ class PurposeOfTrip extends Component{
   render(){
     return(
       <div className={"content PurposeOfTrip"}>
-        <Header h4 ="What travel do you want?"
-                h2 ="Purpose Of Trip" 
-                p={
-                  <>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  <br/>
-                  Suspendisse vitae orci at eros eleifend ultricies ut quis turpis.
-                  </>
-                }
-        />
+        <header>
+          <h4>What travel do you want?</h4>
+          <h2>Purpose of Trip</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            <br/>Suspendisse vitae orci at eros eleifend ultricies ut quis turpis.
+          </p>
+        </header>
         <section>
-          <article className="i1"></article>
-          <article className="i2"></article>
-          <article className="i3"></article>
-          <article className="i4"></article>
-          <article className="i5"></article>
-          <article className="i6"></article>
-        </section>
+          {purpose.map((data, i) => {
+            return (
+              <article className={data.class} key={i}>
+                <div className={`image i${i + 1}`}></div>
+                <div className="texts">
+                  <h2>{data.class}</h2>
+                  <h4>{data.title}</h4>
+                  <ul>
+                    {data.list[0].listItem.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </article>
+            );
+        })}
+      </section>
       </div>
     );
   }

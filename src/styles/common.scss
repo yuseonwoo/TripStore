@@ -53,14 +53,16 @@
     text-align: left;
     // 가상 선택자
     // 첫번째 가상 요소
+    /*
     &::before{
       display: inline-block;
       content:"";
-      width: 200px;
-      height: 10px;
-      background-color: red;
+      width: 80px;
+      height: 6px;
+      background-color: #ccc;
       margin: 0 auto;
     }
+    */
     h2{
       font-size: 36px;
       font-weight: 700;
@@ -94,7 +96,7 @@
 }
 
 .banner{
-  background-image: url(../assets/images/index/footer01.jpg);
+  background-color: #ccc;
   background-size: cover;
   background-position: center;
   color: white;

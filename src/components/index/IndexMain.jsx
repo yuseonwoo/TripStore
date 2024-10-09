@@ -1,10 +1,11 @@
 import React from "react";
-import '../../styles/index/main.scss'
 import { RxDoubleArrowDown } from "react-icons/rx";
-const Main = () => {
+import "../../styles/index/index.main.scss"
+
+const IndexMain = () => {
   return (
     <>
-      <div className="mnWrap">
+      <div className="mnWrap indexMain">
         <main>
           <div className="texts">
             <h2>
@@ -27,4 +28,4 @@ const Main = () => {
   )
 }
 
-export default Main;
+export default IndexMain;
