@@ -1,0 +1,37 @@
+.sights {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+.sights header .texts {
+  color: #fff;
+}
+.sights header .texts hr {
+  display: inline-block;
+  width: 80px;
+  height: 6px;
+  border: 0;
+  background-color: #ccc;
+  margin: 0;
+}
+.sights header .texts h4 {
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 700;
+}
+.sights header .texts p {
+  margin-top: 40px;
+}
+.sights section .image {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/sub2/pic20.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}

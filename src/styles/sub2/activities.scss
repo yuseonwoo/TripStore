@@ -18,9 +18,11 @@
   }
   section{
     outline: 1px solid red;
+    position: relative;
     .imageWrap{
-
+      // overflow: hidden;
       .imageBox{
+        // width: 100%;
         width: calc(100% / 3 * 6);
         display: flex;
         position: relative;
@@ -31,15 +33,83 @@
           align-items: center;
           font-size: 48px;
           background-color: #ccc;
-          width: calc(100% / 6 - 20px);
           line-height: 480px;
-
+          justify-content: space-between;
+          &.i1{
+            background-image: url('../../assets/images/sub2/sub2.cnt4.img1.jpg');
+            height: 420px;
+            background-position: center;
+            background-size: cover;
+          }
+          &.i2{
+            background-image: url('../../assets/images/sub2/sub2.cnt4.img2.jpg');
+            height: 420px;
+            background-position: center;
+            background-size: cover;
+          }
+          &.i3{
+            background-image: url('../../assets/images/sub2/sub2.cnt4.img3.jpg');
+            height: 420px;
+            background-position: center;
+            background-size: cover;
+          }
+          &.i4{
+            background-image: url('../../assets/images/sub2/sub2.cnt4.img1.jpg');
+            height: 420px;
+            background-position: center;
+            background-size: cover;
+          }
+          &.i5{
+            background-image: url('../../assets/images/sub2/sub2.cnt4.img2.jpg');
+            height: 420px;
+            background-position: center;
+            background-size: cover;
+          }
+          &.i6{
+            background-image: url('../../assets/images/sub2/sub2.cnt4.img3.jpg');
+            height: 420px;
+            background-position: center;
+            background-size: cover;
+          }
+        }
+        .texts{
+          text-align: center;
+          h3{
+            font-size: 24px;
+            line-height: 40px;
+            font-weight: 700;
+          }
+          p{
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: light;
+          }
+          ul{
+            margin-top: 40px;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: light;
+          }
         }
       }
     }
     .buttonBox{
-      .btPrev{}
-      .btNext{}
+      display: flex;
+      justify-content: space-between;
+      width: calc(100% + 100px);
+      position: absolute;
+      left:-50px;
+      height: 50px;
+      top: 50%;
+      height: auto;
+      button{
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 36px;
+      }
     }
   }
 }

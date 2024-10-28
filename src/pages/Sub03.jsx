@@ -1,15 +1,14 @@
 import React from "react";
 
-import SiteBanner from "../components/SiteBanner";
+import Sub3Main from '../components/sub3/Sub3Main'
+import Sub3Banner from '../components/sub3/Sub3Banner'
 
 
 const Sub03 = () => {
   return (
     <>
-
-      <h1>세번째 페이지입니다.</h1>
-      <SiteBanner/>
-
+      <Sub3Main/>
+      <Sub3Banner/>
     </>
   )
 }

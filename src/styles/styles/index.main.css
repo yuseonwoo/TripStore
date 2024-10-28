@@ -1,0 +1,46 @@
+.indexMain {
+  background-image: url("../../assets/images/index/header01.jpg");
+  background-color: #ccc;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.indexMain main {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+}
+.indexMain main .texts {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1000px;
+}
+.indexMain main .texts h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+}
+.indexMain main .texts p {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.indexMain main .btn {
+  display: flex;
+  position: absolute;
+  bottom: -250px;
+  left: 50%;
+  justify-content: center;
+}
+.indexMain main .btn button {
+  font-size: 40px;
+  border: none;
+  background: none;
+  color: #fff;
+}

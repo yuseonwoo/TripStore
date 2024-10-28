@@ -1,0 +1,66 @@
+.PurposeOfTrip header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.PurposeOfTrip header h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.PurposeOfTrip header p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+}
+.PurposeOfTrip section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 20px;
+  align-items: center;
+}
+.PurposeOfTrip section article {
+  width: calc(33.33% - 20px);
+  height: 630px;
+}
+.PurposeOfTrip section article .image {
+  height: 440px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.PurposeOfTrip section article .image.i1 {
+  background-image: url(../../assets/images/index/pic01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.PurposeOfTrip section article .image.i2 {
+  background-image: url(../../assets/images/index/pic02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.PurposeOfTrip section article .image.i3 {
+  background-image: url(../../assets/images/index/pic03.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.PurposeOfTrip section article .texts {
+  text-align: center;
+}
+.PurposeOfTrip section article .texts h2 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.PurposeOfTrip section article .texts h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.PurposeOfTrip section article .texts ul {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}

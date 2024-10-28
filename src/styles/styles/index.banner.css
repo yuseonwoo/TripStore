@@ -1,0 +1,25 @@
+.indexBanner {
+  background-image: url("../../assets/images/index/footer01.jpg");
+  background-color: #ccc;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0;
+}
+.indexBanner h2 {
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: 700;
+}
+.indexBanner button {
+  color: #fff;
+  border-color: #fff;
+  font-size: 20px;
+  height: 48px;
+  padding: 0 40px;
+  background-color: transparent;
+  margin-top: 40px;
+}

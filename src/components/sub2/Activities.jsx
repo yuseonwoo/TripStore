@@ -24,12 +24,13 @@ class Activities extends Component{
             <div className="imageBox">
             {activities.map((data,i)=>{
               return(
-                <article className={data.class}>
+                <article className={data.class} key={i}>
                 <div className={`image i${i + 1}`}></div>
                 <div className="texts">
-                <h2>{i+1}Step</h2>
-                <h4>{data.title}</h4>
-                <ul>{data.content.map((content, index)=>{
+                <h3>{i+1}Step</h3>
+                <p>{data.title}</p>
+                <ul>
+                  {data.list[0].listItem.map((content, index)=>{
                   return(
                     <li key={index}>{content}</li>
                   );
@@ -39,7 +40,6 @@ class Activities extends Component{
               </article>
               )
             })
-
             }
             </div>
           </div>

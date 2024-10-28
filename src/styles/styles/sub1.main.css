@@ -1,0 +1,197 @@
+.sub1Main {
+  height: 80vh;
+  background-image: url("../../assets/images/sub1/header02.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 40px;
+}
+.sub1Main main {
+  color: #FFF;
+  width: calc(100% - 500px);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  bottom: 40px;
+}
+.sub1Main main header hr {
+  display: inline-block;
+  width: 80px;
+  height: 6px;
+  border: 0;
+  background-color: #ccc;
+  margin: 0;
+  margin-left: 120px;
+  margin-top: 60px;
+}
+.sub1Main main header h2 {
+  margin-left: 120px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 74px;
+}
+.sub1Main main .genderAge {
+  display: flex;
+  margin-left: 120px;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+.sub1Main main .genderAge .gender {
+  margin-top: 20px;
+  margin-right: 40px;
+  color: #FFF;
+}
+.sub1Main main .genderAge .gender h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.sub1Main main .genderAge .gender .form {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  color: #FFF;
+}
+.sub1Main main .genderAge .gender .form input {
+  display: none;
+}
+.sub1Main main .genderAge .gender .form input + label {
+  color: #FFF;
+  cursor: pointer;
+}
+.sub1Main main .genderAge .gender .form input + label::before {
+  display: block;
+  content: url("../../assets/images/sub1/circle-regular.svg");
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
+}
+.sub1Main main .genderAge .gender .form input:checked + label {
+  text-align: center;
+  cursor: pointer;
+}
+.sub1Main main .genderAge .gender .form input:checked + label::before {
+  content: url("../../assets/images/sub1/circle-check-solid.svg");
+}
+.sub1Main main .genderAge .age {
+  margin-top: 20px;
+  margin-left: 550px;
+}
+.sub1Main main .genderAge .age h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-left: 20px;
+}
+.sub1Main main .genderAge .age .form {
+  margin-top: 10px;
+  display: flex;
+}
+.sub1Main main .genderAge .age .form input {
+  display: none;
+}
+.sub1Main main .genderAge .age .form input + label {
+  display: block;
+  text-align: center;
+  position: relative;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.sub1Main main .genderAge .age .form input + label::before {
+  display: block;
+  content: url("../../assets/images/sub1/circle-regular.svg");
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
+}
+.sub1Main main .genderAge .age .form input:checked + label {
+  cursor: pointer;
+}
+.sub1Main main .genderAge .age .form input:checked + label::before {
+  text-align: center;
+  content: url("../../assets/images/sub1/circle-check-solid.svg");
+  filter: invert(1);
+}
+.sub1Main main .selectBoxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.sub1Main main .selectBoxContainer .selectBox {
+  display: flex;
+  border: 1px solid #fff;
+  margin-left: 120px;
+  margin-top: 0;
+  align-items: center;
+  justify-content: flex-start;
+  width: 400px;
+}
+.sub1Main main .selectBoxContainer .selectBox.s2 {
+  margin-left: 300px;
+}
+.sub1Main main .selectBoxContainer .selectBox.s4 {
+  margin-left: 300px;
+}
+.sub1Main main .selectBoxContainer .selectBox::before {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
+}
+.sub1Main main .selectBoxContainer .selectBox .icon {
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+.sub1Main main .selectBoxContainer .selectBox.s1 .icon {
+  background-image: url("../../assets/images/sub1/location-dot-solid.svg");
+  filter: invert(1);
+}
+.sub1Main main .selectBoxContainer .selectBox.s2 .icon {
+  background-image: url("../../assets/images/sub1/calendar-regular.svg");
+  filter: invert(1);
+  background-image: no-repeat;
+}
+.sub1Main main .selectBoxContainer .selectBox.s3 .icon {
+  background-image: url("../../assets/images/sub1/user-plus-solid.svg");
+  filter: invert(1);
+}
+.sub1Main main .selectBoxContainer .selectBox.s4 .icon {
+  background-image: url("../../assets/images/sub1/question-solid.svg");
+  filter: invert(1);
+}
+.sub1Main main .selectBoxContainer .selectBox select {
+  border: 0;
+  width: calc(100% - 30px);
+  height: 40px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  position: relative;
+  padding-right: 40px;
+  color: #FFF;
+}
+.sub1Main main .selectBoxContainer .selectBox select:focus {
+  border: 0;
+}
+.sub1Main main .selectBoxContainer .selectBox select option {
+  color: #000;
+}
+.sub1Main main .selectBoxContainer .selectBox::after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  filter: invert(1);
+}

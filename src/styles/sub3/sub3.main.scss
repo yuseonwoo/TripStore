@@ -1,0 +1,37 @@
+.sub3Main{
+  height: 80vh;
+  background-image: url('../../assets/images/sub3/header04.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  main{
+    display: flex;
+    justify-content: center;
+    .texts{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      margin-top: 240px;
+      color: #fff;
+      hr{
+        display: inline-block;
+        width: 80px;
+        height: 6px;
+        border: 0;
+        background-color: #fff;
+      }
+      h2{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 74px;
+      }
+      h3{
+        margin-top: 40px;
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 700;
+      }
+    }
+  }
+}

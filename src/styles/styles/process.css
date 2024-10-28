@@ -1,0 +1,58 @@
+.Process header .texts {
+  text-align: left;
+  margin-left: 10px;
+}
+.Process header .texts hr {
+  display: inline-block;
+  width: 80px;
+  height: 6px;
+  border: 0;
+  background-color: #ccc;
+  margin: 0;
+}
+.Process section {
+  display: flex;
+  justify-content: space-around;
+}
+.Process section article {
+  width: calc(33.33% - 20px);
+  height: 630px;
+}
+.Process section article .image {
+  height: 440px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.Process section article .image.i1 {
+  background-image: url(../../assets/images/index/pic05.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.Process section article .image.i2 {
+  background-image: url(../../assets/images/index/pic06.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.Process section article .image.i3 {
+  background-image: url(../../assets/images/index/pic07.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.Process section article .texts {
+  text-align: center;
+}
+.Process section article .texts h2 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.Process section article .texts h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.Process section article .texts ul {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}

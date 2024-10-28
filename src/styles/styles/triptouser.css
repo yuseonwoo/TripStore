@@ -1,0 +1,36 @@
+.TriptoUser {
+  width: 90%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.TriptoUser header {
+  width: calc(50% - 20px);
+}
+.TriptoUser header .texts {
+  width: 100%;
+  text-align: left;
+  margin-top: 40px;
+}
+.TriptoUser header .texts hr {
+  display: inline-block;
+  width: 80px;
+  height: 6px;
+  border: 0;
+  background-color: #ccc;
+  margin: 0;
+}
+.TriptoUser header .texts p {
+  margin-top: 40px;
+}
+.TriptoUser section {
+  width: calc(50% - 20px);
+  margin: 0;
+}
+.TriptoUser section .image {
+  height: 840px;
+  background-image: url(../../assets/images/sub1/pic08.jpg);
+  background-size: cover;
+  background-position: center;
+}

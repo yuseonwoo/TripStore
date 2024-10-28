@@ -1,0 +1,45 @@
+.sub2Main {
+  height: 80vh;
+  background-image: url("../../assets/images/sub2/header03.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #fff;
+  padding-bottom: 40px;
+}
+.sub2Main main {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+}
+.sub2Main main .texts {
+  display: flex;
+  flex-direction: column;
+  margin-right: 430px;
+  margin-bottom: 10%;
+}
+.sub2Main main .texts hr {
+  display: inline-block;
+  width: 80px;
+  height: 6px;
+  border: 0;
+  background-color: #fff;
+  margin: 0;
+  margin-left: 120px;
+}
+.sub2Main main .texts h2 {
+  margin-left: 120px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 74px;
+}
+.sub2Main main .texts p {
+  margin-left: 120px;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
