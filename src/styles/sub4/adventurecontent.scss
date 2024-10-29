@@ -1,0 +1,75 @@
+.adventurecontent{
+  section{
+    width: 90%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 20px;
+    .title{
+      width: calc(25% - 20px);
+      height: 360px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      .texts{
+        margin-left: 20px;
+        hr{
+          display: inline-block;
+          width: 80px;
+          height: 6px;
+          border: 0;
+          background-color: #ccc;
+        }
+        h2{
+          font-size: 36px;
+          line-height: 74px;
+          font-weight: 700;
+        }
+        p{}
+      }
+    }
+    article{
+      width: calc(25% - 20px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      .texts{
+        margin-top: 20px;
+        margin-left: 20px;
+        h2{
+          font-size: 36px;
+          font-weight: 700;
+          line-height: 40px;
+        }
+        h3{
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 40px;
+        }
+        p{
+          margin-top: 30px;
+        }
+      }
+      .image{
+        &.i1,&.i2,&.i3{
+          width: 340px;
+          height: 160px;
+          background-size: cover;
+          background-position: center;
+        }
+        &.i1{
+          background-image: url('../../assets/images/sub4/pic42.jpg');
+        }
+        &.i2{
+          background-image: url('../../assets/images/sub4/pic43.jpg');
+        }
+        &.i3{
+          background-image: url('../../assets/images/sub4/pic44.jpg');
+        }
+      }
+    }
+  }
+}

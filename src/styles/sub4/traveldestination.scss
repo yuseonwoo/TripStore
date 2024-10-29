@@ -17,9 +17,11 @@
       .right-content{
         width: 600px;
         height: 1080px;
-        outline: 1px solid red;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
         .texts{
+          margin-left: 40px;
           hr{
+            margin-top: 200px;
             display: inline-block;
             width: 80px;
             height: 6px;
@@ -35,6 +37,7 @@
             margin-top: 40px;
           }
           h4{
+            margin-top: 200px;
             font-size: 16px;
             line-height: 40px;
             font-weight: 700;
@@ -43,11 +46,20 @@
             font-size: 24px;
             line-height: 40px;
             font-weight: 700;
+            padding-bottom: 40px;
           }
           .btn{
-            width: 150px;
-            height: 40px;
-            button{}
+            margin-top: 80px;
+            button{
+              width: 150px;
+              height: 40px;
+              font-size: 16px;
+              line-height: 40px;
+              font-weight: 700;
+              border-radius: 30px;
+              background-color: black;
+              color: #fff;
+            }
           }
         }
       }
