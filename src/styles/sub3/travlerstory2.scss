@@ -1,0 +1,64 @@
+.travlerstory2{
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  header{
+    width: 100%;
+    hr{
+      display: inline-block;
+      width: 80px;
+      height: 6px;
+      border: 0;
+      background-color: #ccc;
+    }
+    h2{}
+  }
+  section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    article{
+      width: calc(33.33% - 20px);
+      display: flex;
+      flex-direction: column;
+      .image{
+        &.i1,&.i2,&.i3{
+          height: 600px;
+          background-size: cover;
+          background-position: center;
+          position: relative;
+        }
+        &.i1{
+          background-image: url('../../assets/images/sub3/pic38.jpg');
+        }
+        &.i2{
+          background-image: url('../../assets/images/sub3/pic39.jpg');
+        }
+        &.i3{
+          background-image: url('../../assets/images/sub3/pic40.jpg');
+        }
+        .texts{
+          width: 100%;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          color: #fff;
+          padding: 10px;
+          background: rgba(0,0,0,0.2);
+          z-index: 1;
+          h3{
+            margin-left: 10px;
+            font-size: 24px;
+            line-height: 40px;
+            font-weight: 700;
+          }
+          p{
+            margin-top: 10px;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}

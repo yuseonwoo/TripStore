@@ -1,12 +1,15 @@
 import React from "react";
-import SiteBanner from "../components/SiteBanner";
+import Sub4Main from "../components/sub4/Sub4Main";
+import Sub4Banner from "../components/sub4/Sub4Banner";
+import TravelDestination from "../components/sub4/TravelDestination";
 
 
-const Sub04 = ()=>{
+const Sub04 = () => {
   return (
     <>
-      <h1>마지막 페이지 입니다.</h1>
-      <SiteBanner/>
+      <Sub4Main/>
+      <TravelDestination/>
+      <Sub4Banner/>
     </>
   )
 

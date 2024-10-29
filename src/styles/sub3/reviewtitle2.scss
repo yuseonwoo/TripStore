@@ -1,0 +1,81 @@
+.reviewtitle2{
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  .main-content{
+    width: 1440px;
+    display: flex;
+    position: relative;
+    z-index: 100;
+    .left-content{
+      width: 1060px;
+      height: 600px;
+      position: relative;
+      z-index: 0;
+      .image{
+        width: 100%;
+        height: 600px;
+        background-image: url('../../assets/images/sub3/pic32.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+    }
+    .right-content{
+      background-color: #fff;
+      width: 460px;
+      height: 440px; 
+      position: absolute;
+      margin: 0 auto;
+      top: 80px; bottom: 0;
+      right: 0;
+      z-index: 1;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      .texts{
+        h2{
+          margin-top: 80px;
+          font-size: 36px;
+          line-height: 40px;
+          font-weight: 700;
+          margin-left: 20px;
+        }
+        p{
+          margin-top: 20px;
+          margin-left: 20px;
+        }
+        h4{
+          margin-top: 40px;
+          font-size: 16px;
+          line-height: 40px;
+          font-weight: 700;
+          margin-left: 20px;
+        }
+        .btns{
+          margin-top: 40px;
+          margin-left: 20px;
+          button{
+            border: 0;
+            background-color: #fff;
+            &.TiHeartOutline{
+              color: #AA723E;
+              font-size: 16px;
+              line-height: 40px;
+              font-weight: 700;
+              .button-text{
+                margin-left: 10px;
+              }
+            }
+            &.TiHomeOutline{
+              color: #AA723E;
+              font-size: 16px;
+              line-height: 40px;
+              font-weight: 700;
+              .button-text{
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

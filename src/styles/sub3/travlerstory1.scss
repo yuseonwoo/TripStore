@@ -1,0 +1,103 @@
+.travlerstory1{
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  header{
+    text-align: center;
+    hr{
+      display: inline-block;
+      width: 80px;
+      height: 6px;
+      border: 0;
+      background-color: #ccc;
+    }
+    h2{
+      font-size: 36px;
+      line-height: 74px;
+      font-weight: 700;
+    }
+    p{
+      font-size: 14px;
+      font-weight: 100;
+      line-height: 20px;
+    }
+  }
+  .main-content{
+    width: 1440px;
+    display: flex;
+    position: relative;
+    z-index: 100;
+    .left-content{
+      background-color: #fff;
+      width: 460px;
+      height: 440px;
+      position: absolute;
+      margin: auto;
+      top: 0; bottom: 0;
+      left: 0;
+      z-index: 1;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      .texts{
+        h2{
+          margin-top: 80px;
+          font-size: 36px;
+          line-height: 40px;
+          font-weight: 700;
+          margin-left: 20px;
+        }
+        p{
+          margin-top: 20px;
+          margin-left: 20px;
+        }
+        h4{
+          margin-top: 40px;
+          font-size: 16px;
+          line-height: 40px;
+          font-weight: 700;
+          margin-left: 20px;
+        }
+        .btns{
+          margin-top: 40px;
+          margin-left: 20px;
+          button{
+            border: 0;
+            background-color: #fff;
+            &.TiHeartOutline{
+              color: #AA723E;
+              font-size: 16px;
+              line-height: 40px;
+              font-weight: 700;
+              .button-text{
+                margin-left: 10px;
+              }
+            }
+            &.TiHomeOutline{
+              color: #AA723E;
+              font-size: 16px;
+              line-height: 40px;
+              font-weight: 700;
+              .button-text{
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .right-content{
+      width: 1060px;
+      height: 600px;
+      outline: 1px solid purple;
+      position: relative;
+      left: 390px;
+      z-index: 0;
+      .image{
+        width: 100%;
+        height: 600px;
+        background-image: url('../../assets/images/sub3/pic29.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+    }
+  }
+}

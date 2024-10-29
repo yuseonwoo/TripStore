@@ -18,8 +18,8 @@ const RoomSelect = () => {
           <div className="left-panel">
             <div className="image">
               <div className="texts">
-                <h2>Hotel & Motel</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Hotel & Motel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
                 <p>예약 현황 : 70%</p>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur
@@ -53,7 +53,7 @@ const RoomSelect = () => {
             <article className="pension">
               <div className="image i3"></div>
               <div className="texts">
-                <h3>pension</h3>
+                <h3>Pension</h3>
                 <p>Lorem, ipsum dolor sit amet.</p>
                 <p>예약현황 : 70%</p>
               </div>

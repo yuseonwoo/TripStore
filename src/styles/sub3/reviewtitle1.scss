@@ -1,0 +1,42 @@
+.reviewtitle1{
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  section{
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    .image{
+      &.i1,&.i2{
+        width: calc(33.33% - 20px);
+        height: 420px;
+        background-size: cover;
+        background-position: center;
+      }
+      &.i1{
+        background-image: url('../../assets/images/sub3/pic30.jpg');
+      }
+      &.i2{
+        background-image: url('../../assets/images/sub3/pic31.jpg');
+      }
+    }
+    article{
+      width: calc(33.33% - 20px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      .texts{
+        h2{
+          font-size: 36px;
+          line-height: 40px;
+          font-weight: 700;
+        }
+        p{
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}

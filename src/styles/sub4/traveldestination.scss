@@ -1,0 +1,56 @@
+.traveldestination{
+  section{
+    max-width: 1440px;
+    width: 90%;
+    .main-content{
+      display: flex;
+      justify-content: space-between;
+      .left-content{
+        .image{
+          width: 820px;
+          height: 1080px;
+          background-image: url('../../assets/images/sub4/pic41.jpg');
+          background-size: cover;
+          background-position: center;
+        }
+      }
+      .right-content{
+        width: 600px;
+        height: 1080px;
+        outline: 1px solid red;
+        .texts{
+          hr{
+            display: inline-block;
+            width: 80px;
+            height: 6px;
+            border: 0;
+            background-color: #ccc;
+          }
+          h2{
+            font-size: 36px;
+            line-height: 74px;
+            font-weight: 700;
+          }
+          p{
+            margin-top: 40px;
+          }
+          h4{
+            font-size: 16px;
+            line-height: 40px;
+            font-weight: 700;
+          }
+          h3{
+            font-size: 24px;
+            line-height: 40px;
+            font-weight: 700;
+          }
+          .btn{
+            width: 150px;
+            height: 40px;
+            button{}
+          }
+        }
+      }
+    }
+  }
+}

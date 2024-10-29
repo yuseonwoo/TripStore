@@ -11,11 +11,9 @@
   main{
     color: #FFF;
     width: calc(100% - 500px);
-    // border: 1px solid #FFF;
     background-color: rgba(0,0,0,0.5);
     border-radius: 10px;
     bottom: 40px;
-    // padding-bottom: 40px;
     header{
       hr{
         display: inline-block;
@@ -127,7 +125,6 @@
         display: flex;
         border: 1px solid #fff;
         margin-left: 120px;
-        // margin-top: 80px;
         margin-top: 0;
         align-items: center;
         justify-content: flex-start;
@@ -159,25 +156,24 @@
           margin-right: 20px;
         }
         &.s1 .icon {
-          background-image: url("../../assets/images/sub1/location-dot-solid.svg"); // 첫 번째 아이콘 경로
+          background-image: url("../../assets/images/sub1/location-dot-solid.svg");
           filter: invert(1);
           // background-image: no-repeat;
         }
         &.s2 .icon {
-          background-image: url("../../assets/images/sub1/calendar-regular.svg"); // 두 번째 아이콘 경로
+          background-image: url("../../assets/images/sub1/calendar-regular.svg");
           filter: invert(1);
           background-image: no-repeat;
         }
         &.s3 .icon {
-          background-image: url("../../assets/images/sub1/user-plus-solid.svg"); // 세 번째 아이콘 경로
+          background-image: url("../../assets/images/sub1/user-plus-solid.svg");
           filter: invert(1);
         }
         &.s4 .icon {
-          background-image: url("../../assets/images/sub1/question-solid.svg"); // 네 번째 아이콘 경로
+          background-image: url("../../assets/images/sub1/question-solid.svg");
           filter: invert(1);
         }
         select{
-          //display: flex;
           border: 0;
           width: calc(100% - 30px);
           height: 40px;
