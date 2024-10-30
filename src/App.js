@@ -17,12 +17,12 @@ function App() {
     <>
     <SiteHeader/>
     <Routes>
-      <Route path="/index" element={<Index/>}/>
+      <Route path="/" element={<Index/>}/>
       <Route path="/Sub1" element={<Sub01/>}/>
       <Route path="/Sub2" element={<Sub02/>}/>
       <Route path="/Sub3" element={<Sub03/>}/>
       <Route path="/Sub4" element={<Sub04/>}/>
-      <Route path="/" element={<Sub5jQuery/>}/>
+      <Route path="/subquery" element={<Sub5jQuery/>}/>
     </Routes>
     <SiteFooter/>
     </>  
