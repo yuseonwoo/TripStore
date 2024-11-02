@@ -22,7 +22,7 @@ function App() {
       <Route path="/Sub2" element={<Sub02/>}/>
       <Route path="/Sub3" element={<Sub03/>}/>
       <Route path="/Sub4" element={<Sub04/>}/>
-      <Route path="/subquery" element={<Sub5jQuery/>}/>
+      <Route path="/Sub5" element={<Sub5jQuery/>}/>
     </Routes>
     <SiteFooter/>
     </>  

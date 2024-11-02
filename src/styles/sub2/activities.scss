@@ -1,9 +1,10 @@
 .activities{
-  width: 90%;
-  max-width: 1440px;
-  margin: 0 auto;
-  outline: 1px solid black;
+  // margin: 0 auto;
   header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
     hr{
       display: inline-block;
@@ -11,84 +12,64 @@
       height: 6px;
       border: 0;
       background-color: #ccc;
-      margin: 0;
     }
     h2{}
     p{}
   }
   section{
-    outline: 1px solid red;
     position: relative;
     .imageWrap{
-      // overflow: hidden;
+      overflow: hidden;
       .imageBox{
-        // width: 100%;
-        width: calc(100% / 3 * 6);
+        width: 2880px;
         display: flex;
+        flex: 1;
         position: relative;
         justify-content: space-between;
         .image{
           display: flex;
           justify-content: center;
           align-items: center;
-          font-size: 48px;
-          background-color: #ccc;
-          line-height: 480px;
-          justify-content: space-between;
+          width: 460px;
+          height: 420px;
           &.i1{
             background-image: url('../../assets/images/sub2/sub2.cnt4.img1.jpg');
-            height: 420px;
             background-position: center;
             background-size: cover;
           }
           &.i2{
             background-image: url('../../assets/images/sub2/sub2.cnt4.img2.jpg');
-            height: 420px;
             background-position: center;
             background-size: cover;
           }
           &.i3{
             background-image: url('../../assets/images/sub2/sub2.cnt4.img3.jpg');
-            height: 420px;
             background-position: center;
             background-size: cover;
           }
           &.i4{
             background-image: url('../../assets/images/sub2/sub2.cnt4.img1.jpg');
-            height: 420px;
             background-position: center;
             background-size: cover;
           }
           &.i5{
             background-image: url('../../assets/images/sub2/sub2.cnt4.img2.jpg');
-            height: 420px;
             background-position: center;
             background-size: cover;
           }
           &.i6{
             background-image: url('../../assets/images/sub2/sub2.cnt4.img3.jpg');
-            height: 420px;
             background-position: center;
             background-size: cover;
           }
-        }
-        .texts{
-          text-align: center;
-          h3{
-            font-size: 24px;
-            line-height: 40px;
-            font-weight: 700;
-          }
-          p{
-            font-size: 14px;
-            line-height: 20px;
-            font-weight: light;
-          }
-          ul{
-            margin-top: 40px;
-            font-size: 14px;
-            line-height: 20px;
-            font-weight: light;
+          .texts{
+            color: #fff;
+            text-align: center;
+            h3{}
+            p{
+              margin-top: 10px;
+            }
+            ul{}
           }
         }
       }
@@ -96,19 +77,16 @@
     .buttonBox{
       display: flex;
       justify-content: space-between;
-      width: calc(100% + 100px);
+      width: calc(100% + 120px);
       position: absolute;
-      left:-50px;
-      height: 50px;
-      top: 50%;
-      height: auto;
+      left: -60px;
+      right: 60px;
+      top: 0;
+      height: 100%;
       button{
-        width: 40px;
-        height: 40px;
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        font-size: 36px;
+        font-size: 40px;
+        border: 0;
+        background-color: #fff;
       }
     }
   }

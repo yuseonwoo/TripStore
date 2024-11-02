@@ -3,22 +3,27 @@
   header{
     display: flex;
     height: 830px;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 auto;
     .textbox{
       text-align: left;
       width: calc(50% - 20px);
-      margin-top: 120px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      margin-left: 20px;
       hr{
+        margin-top: 120px;
+        margin-left: 20px;
         display: inline-block;
         width: 80px;
         height: 6px;
         border: 0;
         background-color: #ccc;
-        margin: 0;
       }
-      h2{}
+      h2{
+        margin-left: 20px;
+      }
       p{
+        margin-left: 20px;
         &:nth-of-type(2){
           margin-top: 35px;
         }
@@ -29,6 +34,7 @@
     }
     .image{
       width: calc(50% - 20px);
+      margin-left: 20px;
       background-image: url(../../assets/images/index/pic17.jpg);
       background-size: cover;
       background-position: center;

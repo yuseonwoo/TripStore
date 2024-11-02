@@ -7,7 +7,7 @@ import Sub1Banner from "../components/sub1/Sub1Banner"
 
 
 const Sub01 = ()=>{
-  return (
+return (
     <>
       <Sub1Main/>
       <TriptoUser/>

@@ -19,9 +19,12 @@
   section{
     .image{
       background-color: #ccc;
-      width: 1180px;
+      width: 1440px;
       height: 800px;
       margin: 0 auto;
+      background-image: url('../../assets/images/sub1/map_2.png');
+      background-size: cover;
+      background-position: center;
     }
   }
 }
